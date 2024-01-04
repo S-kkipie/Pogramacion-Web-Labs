@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    background-color: #f4f2f1;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    width: 400px;
+    height: 500px;
+    background-color: #3fc0d9;
+    border-radius: 6px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.content form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 70%;
+}
+
+.content form input {
+    all: unset;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    margin-bottom: 35px;
+}
+
+.content form button {
+    align-items: center;
+    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    white-space: nowrap;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.content form button:active,
+.content form button:hover {
+    outline: 0;
+}
+
+.content form button span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+}
+
+.content form button:hover span {
+    background: none;
+}
